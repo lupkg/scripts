@@ -1,0 +1,37 @@
+meta:
+  name: inaugurate
+  homepage: https://github.com/makkus/inaugurate
+  license: GPL v3
+  author:
+    name: Markus Binsteiner
+    usernames:
+      reddit: _frkl
+      github: makkus
+      email: makkus@frkl.io
+  requirements:
+    - bash version 3
+  type: script
+  language: bash
+
+info:
+  slug: A generic 'hit-the-ground-running' bootstrap script
+  description: |
+    inaugurate was written for freckles to enable 'one-line' bootstrap of whole working environments. It turned out to be fairly easy to make it more generic, so it got its own project here. inaugurate (obviously) is not useful for simple cases where you just need to install an application. In 95% of all cases you can do that by just using your system package manager (apt install the-package-you-want).
+
+    Some applications require a bit more effort to install (e.g. ansible using pip, although that is getting easier as well). While still being fairly trivial, you need to install some system dependencies, then, if you want to do it properly, create a virtualenv and pip install the package into it. Those are the cases where inaugurate is of some use as it can do those things automatically.
+
+    The main reason for writing inaugurate was the aforementioned 'one-line' bootstrap though. Admittedly, I have no idea how often this can be of use for the general public, but I figure its a basic enough pattern that I haven't seen implemented elsewhere (yet -- also I might not have looked well enough), at least not in a generic fashion. So I thought I might as well polish it a bit and put it up for other people to have a look. I imagine there are a few situations where it will make sense. You'll know it when you see it, sorta thing.
+
+  urls:
+    readme: https://github.com/makkus/inaugurate/blob/master/README.rst
+    usage: https://github.com/makkus/inaugurate#usage
+
+download:
+  url: https://raw.githubusercontent.com/makkus/inaugurate/{{ version }}/inaugurate
+
+versions:
+  - 2.1
+  - 2.0
+  - 1.2
+  - 1.1
+  - 1.0

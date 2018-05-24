@@ -1,0 +1,5 @@
+meta:
+  name: i3get
+
+info:
+  slug: return information about i3wm

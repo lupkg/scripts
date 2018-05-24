@@ -1,0 +1,5 @@
+meta:
+  name: i3gw
+
+info:
+  slug: a ghost window wrapper for i3wm

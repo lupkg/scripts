@@ -1,0 +1,5 @@
+meta:
+  name: i3run
+
+info:
+  slug: run, raise or hide windows in i3wm

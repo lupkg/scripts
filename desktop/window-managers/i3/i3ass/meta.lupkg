@@ -1,0 +1,27 @@
+meta:
+  homepage: https://github.com/budRich/i3ass
+  license: MIT
+  author: Nils Kvist
+  copyright: Nils Kvist
+  type: script
+  language: bash
+
+info:
+  requirements:
+    - i3 window manager
+  urls:
+    readme: "https://github.com/budRich/i3ass/blob/master/{{ name }}/README.md"
+  issues: https://github.com/budRich/i3ass/issues
+  source: https://github.com/budRich/i3ass.git
+  tags:
+    - window-management
+    - i3
+
+download:
+  url:
+    - url: "https://raw.githubusercontent.com/budRich/i3ass/master/{{ name }}/{{ name }}"
+      file_name: "{{ name }}"
+      type: script
+    - url: "https://raw.githubusercontent.com/budRich/i3ass/master/{{ name }}/{{ name }}.1"
+      file_name: "{{ name }}.1"
+      type: man
