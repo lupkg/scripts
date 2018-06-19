@@ -1,0 +1,6 @@
+alias: "scripts"
+reader:
+  use_files: false
+  use_metadata_files: true
+  use_parent_metadata_files: true
+  use_subfolders_as_tags: true
