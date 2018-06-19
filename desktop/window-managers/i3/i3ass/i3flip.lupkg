@@ -3,7 +3,6 @@ meta:
 
 info:
   slug: switch containers without leaving the parent
-  desc: switch containers without leaving the parent. Perfect for tabbed or stacked layout, but works on all layouts. If direction is next (or n) and the active container is the last, the first container will be activated.
-  url:
-    example:
-      - https://github.com/budRich/i3ass/blob/master/i3flip/README.md#example
+  description: switch containers without leaving the parent. Perfect for tabbed or stacked layout, but works on all layouts. If direction is next (or n) and the active container is the last, the first container will be activated.
+  docs:
+    example: "https://github.com/budRich/i3ass/blob/master/i3flip/README.md#example"

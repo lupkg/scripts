@@ -1,19 +1,20 @@
-meta:
+lupkg:
   name: inaugurate
-  homepage: https://github.com/makkus/inaugurate
-  license: GPL v3
-  author:
-    name: Markus Binsteiner
-    usernames:
-      reddit: _frkl
-      github: makkus
-      email: makkus@frkl.io
   requirements:
     - bash version 3
   type: script
-  language: bash
 
 info:
+  language: bash
+  homepage: https://github.com/makkus/inaugurate
+  license:
+   - GPL v3
+  author:
+    - name: Markus Binsteiner
+      usernames:
+        reddit: _frkl
+        github: makkus
+      email: makkus@frkl.io
   slug: A generic 'hit-the-ground-running' bootstrap script
   description: |
     inaugurate was written for freckles to enable 'one-line' bootstrap of whole working environments. It turned out to be fairly easy to make it more generic, so it got its own project here. inaugurate (obviously) is not useful for simple cases where you just need to install an application. In 95% of all cases you can do that by just using your system package manager (apt install the-package-you-want).
@@ -26,12 +27,14 @@ info:
     readme: https://github.com/makkus/inaugurate/blob/master/README.rst
     usage: https://github.com/makkus/inaugurate#usage
 
-download:
-  url: https://raw.githubusercontent.com/makkus/inaugurate/{{ version }}/inaugurate
+urls:
+  - url: https://raw.githubusercontent.com/makkus/inaugurate/{{ version }}/inaugurate
+    file_name: inaugurate
+    type: script
 
 versions:
-  - 2.1
-  - 2.0
-  - 1.2
-  - 1.1
-  - 1.0
+  - version: 2.1
+  - version: 2.0
+  - version: 1.2
+  - version: 1.1
+  - version: 1.0
